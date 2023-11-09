@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent Scrolling in imersive apps that don't use [OrbitControls] for example */
+html, body 
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* No blue outline in view */
+    outline: none;
+}
