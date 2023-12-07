@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.lil-gui {
+    --width: 600px;
+    --widget-height: 20px;
+	--font-size: 20px;
+	--input-font-size: 20px;
+	--name-width: 40%;
+    --title-height: calc(var(--widget-height) + var(--spacing) * 5);
+    --title-text-color: #fff700;
+	--padding: 10px;
+    --checkbox-size: calc(1 * var(--widget-height));
+}
