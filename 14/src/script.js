@@ -576,6 +576,13 @@ const tick = () =>
     // Update controls
     controls.update()
 
+    // Update Light Helpers
+    hemisphereLightHelper.update()
+    directionalLightHelper.update()
+    pointLightHelper.update()
+    spotLightHelper.update()
+    // rectAreaLightHelper.update()
+
     // Render
     renderer.render(scene, camera)
 
